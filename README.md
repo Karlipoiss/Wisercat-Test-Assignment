@@ -1,1 +1,0 @@
-# Wisercat-Test-Assignment
