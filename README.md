@@ -1,6 +1,6 @@
 # Wisercat-Test-Assignment
 
-## Running the app with docker
+## Running the app with Docker
 
 1. Navigate to folder filters/docker. Pull app and database images:
    ```
