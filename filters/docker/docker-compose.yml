@@ -1,7 +1,7 @@
 version: "3"
 services:
   postgres:
-    image: postgres:latest
+    image: ainsyyy/filters-postgresql:latest
     network_mode: bridge
     container_name: postgres
     volumes:
@@ -16,7 +16,7 @@ services:
       - POSTGRES_DB=filters_db
     restart: unless-stopped
   springbootapp:
-    image: springbootapp:latest
+    image: ainsyyy/filters-springbootapp:latest
     network_mode: bridge
     container_name: springbootapp
     expose:
