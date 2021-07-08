@@ -2,7 +2,7 @@
 
 ## Running the app with Docker
 
-1. Compose app and database:
+1. Navigate to folder filters/docker. Compose app and database:
    ```
    docker-compose up
    ```
